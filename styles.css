@@ -1,0 +1,106 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+    min-height: 100vh;
+    font-family: sans-serif;
+    border-left: 5px solid lightgray;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content:flex-start;
+    align-content:space-between;
+    list-style-type: none;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: lightgrey;
+    font-family: poppins;
+    font-size: 20px;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin-right: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    color: tomato;
+    font-family: poppins light;
+    font-size: 20px;
+    padding: 0;
+}
+h1{
+    font-family: poppins thin;
+    color: tomato;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+
+}
+
+h2{
+    font-family:poppins thin;
+    margin-top: 0px;
+}
+
+.blog-date{
+    color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.blog-name{
+    font-family: Poppins light;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.blog-text{
+    font-family: poppins light;
+    line-height: 1.8;
+    font-size: 18px;
+    
+}
+
+.blog-text::first-letter {
+    font-size: 5rem;
+    font-weight: lighter;
+    color: lightgray;
+    float: left;
+    line-height: 1;
+    vertical-align: top;
+    margin-right: 0.1em;
+}
+
+.blog-picture{
+    width: 100%;
+}
+
+.continue-button{
+    color: tomato;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.copyright-line{
+    color: lightgray;
+    font-family: poppins light;
+    font-size:20px
+}
+
+.article-container{
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+
+}
